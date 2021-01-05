@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<meta charset="UTF-8">
+<link href="styles.css" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+<script src="app.js" charset="utf-8"></script>
+
+<head>
+    <title> Minesweeper </title>
+</head>
+<h1 class='title'>
+    Welcome to Minesweeper!
+</h1>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <h2>
+                Instructions
+            </h2>
+            <p>
+                How to play Minesweeper:<br> 1. There are 15 'mines' hidden throughout this 10x10 board<br> 2. Click to reveal a square<br> 3. Right click to flag/mark a square<br>4. Click a square to start the timer<br>5. The numbers in the revealed
+                squares represent
+                <br> the number of mines in the surrounding 8 squares<br> 6. flag all of the mines in the fastest time possible<br> 7. If you reveal a mine, YOU LOSE!<br>
+
+            </p>
+            <h2>
+                Game Features
+            </h2>
+            <p>
+                1. Scoreboard will update as you win games<br> 2. You can change the number of mines you would<br>like in the submission on the right side <br> (between 1-99). To correctly change the number of mines, <br> pick a number, press submit,
+                then restart the game </p>
+        </div>
+        <div class="middle">
+            <div class='grid'>
+            </div>
+            <div class="timer">
+                <p id="time">
+                </p>
+            </div>
+            <div class="restart">
+                <button id="restart">
+                    Restart
+                </button>
+            </div>
+            <p id="flagsRemain" class="flagsRemain">
+            </p>
+        </div>
+        <div class="right">
+            <h2>
+                Scoreboard
+            </h2>
+            <p id="score" class="scorelist">
+                1. 0:00
+            </p>
+            <label style="width: 150px;"> Number of mines: </label>
+            <span class="submission">
+                <input type="number" id="numMines" min="1" max="99">
+                <button id="submit"> Submit </button>
+            </span>
+        </div>
+    </div>
+</body>
+
+</html>

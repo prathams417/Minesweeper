@@ -1,0 +1,103 @@
+.grid {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background: LightGrey;
+    align-content: center;
+    margin: auto;
+}
+
+.restart {
+    margin: auto;
+    align-content: center;
+    margin-left: 42%;
+}
+
+.container {
+    position: absolute;
+    width: 1300px;
+    height: 500px;
+}
+
+.container>div {
+    float: left;
+    margin: 25px;
+}
+
+.left {
+    width: 100px padding 70px;
+}
+
+.middle {
+    width: 425px;
+}
+
+.right {
+    width: 100px;
+}
+
+.timer {
+    height: 35px;
+    width: 70px;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+}
+
+.grid div {
+    height: 40px;
+    width: 40px;
+    border-style: groove;
+}
+
+.mine {
+    background-color: LightGrey;
+    text-align: center;
+}
+
+.flag {
+    align-content: center;
+    font-size: 22px;
+    text-align: center;
+}
+
+.checked {
+    background-color: Grey;
+    align-content: center;
+    font-size: 22px;
+    text-align: center;
+}
+
+.flagsRemain {
+    text-align: center;
+    padding: 15px;
+}
+
+.scorelist {
+    height: 300px;
+    width: 200px;
+    padding: 15px;
+    border: solid;
+}
+
+.one {
+    color: green
+}
+
+.two {
+    color: blue
+}
+
+.three {
+    color: Red;
+}
+
+.title {
+    text-align: center;
+}
+
+.submission {
+    margin: auto;
+    position: absolute;
+}
